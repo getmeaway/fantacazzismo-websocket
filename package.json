@@ -1,0 +1,23 @@
+{
+  "name": "asta-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "websocket": "^1.0.32"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "asta",
+    "websocket",
+    "heroku"
+  ],
+"engines": {
+    "node": "10.x"
+  },
+  "author": "sauro ruggeri",
+  "license": "ISC"
+}
