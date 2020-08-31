@@ -1,10 +1,12 @@
+const PORT = process.env.PORT || 3000;
+
 var WebSocketServer = require('websocket').server;
 var http = require('http');
 var server = http.createServer(function(request, response) {
     // Qui possiamo processare la richiesta HTTP
     // Dal momento che ci interessano solo le WebSocket, non dobbiamo implementare nulla
 });
-server.listen(3000, function() { });
+server.listen(PORT, function() { });
 // Creazione del server
 wsServer = new WebSocketServer({
     httpServer: server
